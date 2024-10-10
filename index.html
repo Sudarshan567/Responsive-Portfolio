@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/857fd779f5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="p-5 us-none"><!---------------------------FIRST SECTION----------------------------------------->
+    <section class="bg-purple-300 p-5 mt-4 rounded-2xl">
+        <div class="flex">
+            <h1 class="font-bold sm:pl-10 border-r-2 pr-5 border-black text-2xl">Portfolio</h1>
+            <div class="my-auto flex">
+                <button onclick="menuClick()">
+                    <i class="text-xl pl-5 pt-1 fa-solid fa-bars md:hidden"></i>
+                </button>
+                <ul class="hidden md:flex mx-2">
+                    <li class="mx-2 font-medium"><a href="#">Home</a></li>
+                    <li class="mx-2 font-medium"><a href="#abo">About</a></li>
+                    <li class="mx-2 font-medium"><a href="#edu">Education</a></li>
+                    <li class="mx-2 font-medium"><a href="#pro">Project</a></li>
+                    <li class="mx-2 font-medium"><a href="#con">Contact</a></li>
+                </ul>
+            </div>
+            <a href="./assets/Sudarshan new.pdf" download class="ml-auto">
+                <button class="bg-red-500 p-2 text-white rounded-lg  flex">
+                    <span class="hidden mr-1 lg:flex">Download Resume</span>
+                    <i class="pt-1 fa-solid fa-download fa-bounce"></i>
+                </button>
+            </a>
+        </div>        
+
+        <div id="mobileMenu" class="hidden">
+            <ul class="md:hidden ml-10 mt-4">
+                <li class="font-medium mt-2"><a href="#">Home</a></li>
+                <li class="font-medium mt-2"><a href="#abo">About</a></li>
+                <li class="font-medium mt-2"><a href="#edu">Education</a></li>
+                <li class="font-medium mt-2"><a href="#pro">Project</a></li>
+                <li class="font-medium mt-2"><a href="#con">Contact</a></li>
+            </ul>
+        </div>
+
+        <img src="./assets/sudarshan (1).jpg" class="sm:hidden flex mx-auto h-56 rounded-lg mt-10">
+        <div class="flex md:h-[500px] 2xl:h-[600px]">
+            <div class="sm:w-1/2 md:h-1/2">
+                <span class="flex justify-center mt-8 text-4xl font-bold sm:justify-start md:mt-28 md:text-5xl md:ml-5 lg:ml-10 lg:mt-28 xl:ml-20 xl:text-7xl 2xl:mt-36 2xl:text-8xl">Hello,</span>
+                <span class="flex justify-center text-2xl font-bold sm:justify-start md:text-3xl md:ml-5 lg:ml-10 xl:ml-20 xl:text-5xl 2xl:text-6xl">I'm Sudarshan</span>
+                <span class="flex justify-center text-xl sm:justify-start md:text-xl md:ml-5 lg:ml-10 xl:ml-20 xl:text-3xl 2xl:text-4xl">Frontend Developer</span><br>
+                <p class="text-opacity-60 p-10 sm:justify-start sm:p-0 text-black md:p-0 md:ml-5 lg:ml-10 xl:ml-20 xl:text-sm 2xl:-text-lg">
+                    Front-End Developer with a passion for crafting user-friendly web experience.
+                    Proficient in HTML, CSS, and TailwindCSS responsive design principles, ensuring seamless experiences across all devices.
+                    Dedicated to delivering high-quality, accessible, and performant web interfaces that engage and delight users.
+                </p><br>
+            </div><br>
+            <div class="flex">
+                <img class="hidden mt-10 sm:justify-end sm:flex lg:ml-20 xl:ml-28" src="./assets/sudarshan__1_-removebg-preview.png">
+            </div>
+        </div>
+    </section>
+              <!------------------------SECOND SECTION--------------------------------------------->
+    <section class="bg-purple-300 p-5 mt-9 rounded-2xl" id="abo">
+        <div class="flex justify-center font-bold text-4xl">
+            About Me
+        </div>
+        <div class="p-5 sm:text-lg">
+            <p>
+                Hi, I'm <b>Sudarshan</b>, a resident of Coimbatore. I am currently completed in the Bachelor of Engineering program, specializing in
+                <b>Computer Science and Engineering</b> at <b>Rathinam Technical Campus</b>.
+            </p><br>
+            <p> 
+                I am a passionate frontend developer with expertise in <b>HTML</b>, <b>CSS</b>, <b>Tailwind CSS</b>, and <b>JavaScript</b>. 
+                My journey in the world of coding has led me to <b>specialize in React</b>, where I create dynamic and interactive user interfaces. 
+                Currently, I am <b>expanding my skill set</b> by delving into <b>backend technologies</b> to further enhance my capabilities.
+            </p><br>
+            <p>
+                I thrive on challenges and am constantly seeking to learn and grow in this ever-evolving field. 
+                With a keen eye for design and a solid foundation in frontend development, I am excited to explore the realm of backend technologies to broaden my horizons and take my projects to the next level.
+            </p>
+        </div>
+        <div class="flex justify-center font-bold text-4xl sm:justify-start sm:ml-5">
+            My Skills
+        </div>
+
+        <div class="mt-5 sm:grid sm:grid-cols-2 xl:grid-cols-3">
+
+            <div class="mr-3">
+                <span class="flex justify-center md:justify-start sm:ml-5 lg:ml-14">
+                    <i class="text-5xl bg-red-500 text-white px-3 pt-2 pb-1 rounded-full fa-brands fa-html5"></i>
+                </span>
+                <div class="mt-2">
+                    <span class="flex p-5 pt-0 lg:ml-10">
+                        HTML (Hypertext Markup Language), adept at structuring and presenting content on the web. 
+                        Skilled in utilizing tags to create responsive and accessible frontend designs.
+                    </span>
+                </div>
+            </div>
+
+            <div class="mr-3">
+                <span class="flex justify-center md:justify-start sm:ml-5 lg:ml-14">
+                    <i class="text-5xl bg-red-500 text-white px-3 pt-2 pb-1 rounded-full fa-brands fa-css3-alt"></i>
+                </span>
+                <div class="mt-2">
+                    <span class="flex p-5 pt-0 lg:ml-10">
+                        CSS (Cascading Style Sheets), with a keen eye for design and layout. 
+                        Proficient in applying styles, ensuring visually appealing and responsive user interfaces for seamless 
+                        frontend development.
+                    </span>
+                </div>
+            </div>
+            
+            <div class="mr-3">
+                <span class="flex  justify-center md:justify-start sm:ml-5 lg:ml-14">
+                    <img class="text-5xl h-[50px] bg-red-500 px-3 py-4 rounded-full sm:w-1/6" src="./assets/Tailwind-CSS-removebg-preview.png">
+                </span>
+                <div class="mt-2">
+                    <span class="flex p-5 pt-0 lg:ml-10">
+                        Tailwind CSS, utilizing utility-first methodology for efficient and scalable styling. 
+                        Experienced in rapidly building responsive and modern user interfaces, optimizing development 
+                        workflow.
+                    </span>
+                </div>
+            </div>
+
+            <div class="mr-3">
+                <span class="flex justify-center md:justify-start sm:ml-5 lg:ml-14">
+                    <i class="text-2xl bg-red-500 text-white px-5 py-3 rounded-full fa-brands fa-js"></i>
+                </span>
+                <div class="mt-2">
+                    <span class="flex p-5 pt-0 lg:ml-10">
+                        Familiarity with DOM manipulation, laying the foundation for further JavaScript exploration and mastery
+                    </span>
+                </div>
+            </div>
+
+            <div class="mr-3">
+                <span class="flex justify-center md:justify-start sm:ml-5 lg:ml-14">
+                    <i class="text-5xl bg-red-500 text-white px-3 pt-2 pb-1 rounded-full fa-brands fa-react" style="color: #ffffff;"></i>
+                </span>
+                <div class="mt-2">
+                    <span class="flex p-5 pt-0 lg:ml-10">
+                        Proficiency in React, enabling development of dynamic and interactive user interfaces with reusable components.
+                    </span>
+                </div>
+            </div>
+
+            <div class="mr-3">
+                <span class="flex  justify-center md:justify-start sm:ml-5 lg:ml-14">
+                    <img class="text-5xl h-[50px] bg-red-500 text-white px-3 py-2 rounded-full sm:w-1/6 sm:h1/4" src="./assets/photoshop.jpg">
+                </span>
+                <div class="mt-2">
+                    <span class="flex p-5 pt-0 lg:ml-10">
+                        Basic Photoshop proficiency for image editing and graphic design. 
+                        Able to perform essential tasks such as cropping, resizing, and color adjustments for various 
+                        design needs.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+             <!------------------------THIRD SECTION--------------------------------------------->
+    <section class="bg-purple-300 p-5 mt-9 rounded-2xl" id="edu">
+        <div class="flex justify-center font-bold text-4xl">
+            My Education
+        </div>
+
+        <div class="grid sm:grid sm:grid-cols-2 xl:grid-cols-3">
+            <div class="group mt-5 ml-1 sm:ml-7 ">
+                    <h1 class="font-bold text-2xl">RATHINAM TECHNICAL CAMPUS</h1>
+                <div class="group-hover:bg-purple-400 p-5 rounded-2xl group-hover:shadow-md group-hover:shadow-black">
+                    <img src="./assets/Rathinam-01.jpg" class="w-full h-[338px] rounded-xl opacity-50 group-hover:opacity-100"><br>
+                    <Span class="opacity-30 group-hover:opacity-100">
+                        <b class="opacity-80">COLLEGE:</b> RATHINAM TECHNICAL CAMPUS<br>
+                        <b class="opacity-70">PLACE:</b> COIMBATORE<br>
+                        <b class="opacity-70">DEGREE:</b> B.E<br>
+                        <b class="opacity-70">DEPARTMENT:</b> COMPUTER SCIENCE AND ENGINEERING<br>
+                        <b class="opacity-70">YEARS:</b> 4 YEARS<br>
+                        <b class="opacity-70">GPA:</b> 7.32<br>
+                        <b class="opacity-70">JOINING YEAR:</b> 2022<br>
+                        <b class="opacity-70">PASSOUT YEAR:</b> 2024<br>
+                        <button onclick="location.href='https://www.rathinamcollege.edu.in/engineering/'" class="flex font-bold mt-5 p-3 rounded-lg bg-red-600 text-white">
+                            VISIT COLLEGE WEBSITE<i class="group-hover:block hidden my-auto ml-2 fa-solid fa-right-long fa-beat"></i>
+                        </button>
+                    </Span>
+                </div>
+            </div>
+
+            <div class="group mt-5 ml-1 sm:ml-7 ">
+                    <h1 class="font-bold text-2xl">SRI SAI RANGANATHAN COLLEGE</h1>
+                <div class="group-hover:bg-purple-400 p-5 rounded-2xl group-hover:shadow-md group-hover:shadow-black">
+                    <img src="./assets/Rangathan College.jpeg" class="w-full h-[338px] rounded-xl opacity-50 group-hover:opacity-100"><br>
+                    <Span class="opacity-30 group-hover:opacity-100">
+                        <b class="opacity-80">COLLEGE:</b> SRI SAI RANGANATHAN ENGINEERING COLLEGE <br>
+                        <b class="opacity-70">PLACE:</b> COIMBATORE <br>
+                        <b class="opacity-70">DEGREE:</b> B.E <br>
+                        <b class="opacity-70">DEPARTMENT:</b> COMPUTER SCIENCE AND ENGINEERING <br>
+                        <b class="opacity-70">YEARS:</b> 4 YEARS <br> 
+                        <b class="opacity-70">GPA:</b> 7.32 <br>
+                        <b class="opacity-70">JOINING YEAR:</b> 2020<br>
+                        <b class="opacity-70">PASSOUT YEAR:</b> 2022<br>
+                        <button onclick="location.href='https://reccbe.ac.in/'" class="flex font-bold mt-5 p-3 rounded-lg bg-red-600 text-white"> 
+                            VISIT SCHOOL PAGE<i class="group-hover:block hidden my-auto ml-2 fa-solid fa-right-long fa-beat"></i>
+                        </button>
+                    </Span>
+                </div>
+            </div>
+
+            <div class="group mt-5 ml-1 sm:ml-7 ">
+                <h1 class="font-bold text-2xl"> MOTHERLAAND Matric Hr Sec School</h1>
+                <div class="group-hover:bg-purple-400 p-5 rounded-2xl group-hover:shadow-md group-hover:shadow-black">
+                    <img src="./assets/School-03.jpg" class="w-full h-[338px] rounded-xl opacity-50 group-hover:opacity-100"><br>
+                    <Span class="opacity-30 group-hover:opacity-100">
+                        <b class="opacity-80">SCHOOL:</b> MOTHERLAAND MATRIC HR SEC SCHOOL <br>
+                        <b class="opacity-70">PLACE:</b> COIMBATORE <br>
+                        <b class="opacity-70">COURSE:</b> 10th, 12th<br>
+                        <b class="opacity-70">COURSE:</b> BIO-MATHS<br>
+                        <b class="opacity-70">MEDIUM:</b> ENGLISH<br> 
+                        <b class="opacity-70">BOARD:</b> STATE BOARD <br>
+                        <b class="opacity-70">10th PERCENTAGE:</b> 73.5<br>
+                        <b class="opacity-70">12th PERCENTAGE:</b> 51<br>
+                        <b class="opacity-70">JOINING YEAR:</b> 2006<br>
+                        <b class="opacity-70">PASSOUT YEAR:</b> 2020<br>
+                        <button onclick="location.href='https://www.justdial.com/Coimbatore/Motherland-Matriculation-Higher-Secondary-School-Selvapuram/0422PX422-X422-200703013858-S5E3_BZDET'" 
+                            class="flex font-bold mt-5 p-3 rounded-lg bg-red-600 text-white"> 
+                            VISIT SCHOOL PAGE<i class="group-hover:block hidden my-auto ml-2 fa-solid fa-right-long fa-beat"></i>
+                        </button>
+                    </Span>
+                </div>
+            </div>
+        </div>
+    </section> 
+             <!------------------------FORTH SECTION--------------------------------------------->
+    <section class="bg-purple-300 p-5 mt-8 rounded-2xl" id="pro">
+        <h1 class="text-4xl font-bold flex justify-center cursor-pointer">MY PROJECTS</h1>
+        <h2 class="text-xl font-semibold flex justify-center cursor-pointer">Click On The Image To View The Web Page</h2><br>
+        <div class="grid sm:grid md:grid-cols-2 xl:grid-cols-3">
+            <!-- <div class="m-5">
+                <a href="#">
+                    <img class="rounded-lg" src="./assets/clock.png" alt="Clock">
+                </a>
+                <h2 class="font-bold text-xl flex justify-center">Clock</h2>
+                <p class="p-2">A digital clock, designed in a sophisticated dark & light theme mode.
+                    Showcasing the current time with precision build using HTML,
+                    TailwindCSS & Javascript for frontend experience.
+                </p>
+            </div> -->
+            <div class="m-5">
+                <a href="https://sudarshan567.github.io/Login-Form/">
+                    <img class="rounded-lg " src="./assets/Htmllogin.png" alt="Login">
+                </a>
+                <h2 class="font-bold text-xl flex justify-center">Login & Reg</h2>
+                <p class="p-2">
+                    This is a login page, Crafted with dark & light theme moded. Utilizing HTML,
+                    TailwindCSS and Javascript for an exclusive frontend experience.
+                </p>
+            </div>
+            <div class="m-5">
+                <a href="https://sudarshan567.github.io/Portfolio-Dark-theme/">
+                    <img class="rounded-lg" src="./assets/Portfolio-Dark.png" alt="Portfolio Dark Theme">
+                </a>
+                <h2 class="font-bold text-xl flex justify-center">Portfolio Dark Theme</h2>
+                <p class="p-2">This is my portfolio, exclusively designed in dark theme mode.
+                    It contains comprehensive information and is entirely built using HTML and CSS.
+                    The portfolio is hosted on GitHub.
+                </p>
+            </div>
+            <div class="m-5">
+                <a href="https://sudarshan567.github.io/NovaPad/">
+                    <img class="rounded-lg" src="./assets/NovaPad.png" alt="Laptop landing page">
+                </a>
+                <h2 class="font-bold text-xl flex justify-center">NovaPad Landing Page</h2>
+                <p class="p-2">The NovaPad is more specific than the EvolveX webpage,
+                    focusing on a particular model. It is built around an imaginary brand.
+                    Navigating through it mainly emphasizes a specific model within that brand.
+                </p>
+            </div>
+            <div class="m-5">
+                <a href="https://sudarshan567.github.io/TimeCrafters/">
+                    <img class="rounded-lg" src="./assets/TimeCrafters.png" alt="Watch Landing Page">
+                </a>
+                <h2 class="font-bold text-xl flex justify-center">TimeCrafters Landing Page</h2>
+                <p class="p-2">Designed and developed a static website for a luxury watch brand,
+                    utilizing HTML and CSS. Implemented a clean, modern layout with high-resolution
+                    product images
+                </p>
+            </div>
+            <div class="m-5">
+                <a href="https://sudarshan567.github.io/Velocity-X/">
+                    <img class="rounded-lg" src="./assets/Velocity-X.png" alt="Car Landing Page">
+                </a>
+                <h2 class="font-bold text-xl flex justify-center">Velocity-X Landing Page</h2>
+                <p class="p-2">Designed and developed a static website for a luxury watch brand,
+                    utilizing HTML and CSS. Implemented a clean, modern layout with high-resolution
+                    product images
+                </p>
+            </div>
+        </div>
+    </section>
+               <!------------------------FIFTH SECTION--------------------------------------------->
+    <section class="bg-purple-300 p-5 mt-8 rounded-2xl" id="con">
+        <h1 class="text-4xl font-bold flex justify-center">CONTACT ME</h1>
+        <h2 class="text-xl font-semibold flex justify-center">For a better communication please click on the Email-ID above the linkedin link</h2>
+    
+        <div class="grid sm:grid sm:grid-cols-2">
+          <div class="sm:ml-10">
+            <form action="mailto:sudarshan7203@gmail.com" method="get" enctype="text/plain">
+    
+              <h4 class="text-2xl font-semibold">Name:</h4>
+              <input type="text" name="subject" placeholder="Your Name" required class="rounded-full sm:w-full h-9 mt-1 pl-3"><br><br>
+              <h4 class="text-2xl font-semibold">Email:</h4>
+              <input type="email" name="email" placeholder="Your Name" required class="rounded-full sm:w-full h-9 mt-1 pl-3"><br><br>
+              <h4 class="text-2xl font-semibold">Message:</h4>
+              <textarea name="body" placeholder="Your Message" required  class="rounded-2xl w-48 sm:w-full h-28 pl-3 mt-1 resize-none"></textarea><br><br>
+              <input type="submit" value="Send" class="bg-red-600 text-white p-3 rounded-full  font-bold ml-9 w-32 text-xl">
+            </form>
+          </div>
+          <div class="mt-10 sm:ml-12">
+            <i class="fa-brands fa-github inline text-2xl lg:text-3xl pr-1"></i>
+            <a href="https://github.com/Sudarshan567" class="text-xl lg:text-2xl ">github.com/Sudarshan567</a><br><br>
+    
+            <i class="fa-solid fa-envelope-open-text text-2xl lg:text-3xl pr-1"></i>
+            <a href="mailto:sudarshan7203@gmail.com" class=" text-lg lg:text-2xl ">sudarshan7203@gmail.com</a><br><br>
+    
+            <i class="fa-brands fa-linkedin text-2xl lg:text-3xl pr-1"></i>
+            <a href="https://www.linkedin.com/in/sudarshan-k-439263260/" class=" text-2xl">linkedin</a><br><br><br>
+    
+            <a href="./assets/Sudarshan new.pdf" download class="bg-red-500 ml-4 text-white p-4 rounded-3xl mt-16 text-xl">Download Resume
+            <i class="fa-solid fa-download"></i></a><br><br><br>
+    
+            <p class="font-bold text-3xl ml-12">Thank You</p>
+    
+            <a href="#" class="flex justify-end">
+              <abbr title="Scroll to Top">
+              <button class="top">
+              <i class="fa-solid fa-up-long fa-bounce text-3xl bg-red-500 text-white px-3 py-4 rounded-xl"></i></button>
+              </abbr>
+            </a>
+          </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
